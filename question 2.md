@@ -29,7 +29,7 @@ if __name__ == "__main__":
     save_model_instance()
 
 ```
-Explanation:
+Explanation:<br>
 1 We define a simple class named MyModel containing a name attribute.<br>
 2. Create a signal receiver called my_signal_handler that's tied to the post_save signal of MyModel<br>
 3. In the my_signal_handler function, we print the current thread name so that the calling thread might be matched.<br>

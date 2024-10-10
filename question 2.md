@@ -30,8 +30,8 @@ if __name__ == "__main__":
 
 ```
 Explanation:
-1 We define a simple class named MyModel containing a name attribute:.
-2. Create a signal receiver called my_signal_handler that's tied to the post_save signal of MyModel :.
-3. In the my_signal_handler function, we print the current thread name so that the calling thread might be matched.
-4. We print the current thread name in the save_model_instance method just before saving an instance of MyModel:.
-5. Running the above program will ensure that the output reflects the fact that both caller and the signal handler run in the same thread.
+1 We define a simple class named MyModel containing a name attribute.<br>
+2. Create a signal receiver called my_signal_handler that's tied to the post_save signal of MyModel<br>
+3. In the my_signal_handler function, we print the current thread name so that the calling thread might be matched.<br>
+4. We print the current thread name in the save_model_instance method just before saving an instance of MyModel.<br>
+5. Running the above program will ensure that the output reflects the fact that both caller and the signal handler run in the same thread.<br>

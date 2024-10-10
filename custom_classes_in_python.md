@@ -31,3 +31,8 @@ rect = Rectangle(5, 3)
 for item in rect:
     print(item)
 ```
+### Example output
+``` Output
+{'length': 5}
+{'width': 3}
+```
